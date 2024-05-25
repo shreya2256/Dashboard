@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Parvatibai Genba Moze College of Engineering, Wagholi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar bg-dark text-white">
+                <div class="sidebar-sticky">
+                    <div class="input-group rounded mb-3 px-3">
+                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        <span class="input-group-text border-0" id="search-addon">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link active" href="#">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Student</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Teacher</a></li>
+                        <li class="nav-item"><a the college name more visually striking nav-link" href="#">Assignment</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Examination</a></li>
+                        <li the college name more visually striking="nav-item"><a class="nav-link" href="#">Notes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Activities</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main content -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-4">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#" style="color: #0056b3; font-weight: bold;">
+                        Parvatibai Genba Moze College of Engineering, Wagholi
+                    </a>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add User</button>
+                </nav>
+                
+                <h1 class="h2">Dashboard</h1>
+
+                <!-- Stats Cards -->
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card mb-3 bg-primary text-white">
+                            <div class="card-body">
+                                <div class="card-title">Students</div>
+                                <h5>4000</h5>
+                                <div class="card-text">Total Students Enrolled</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card mb-3 bg-success text-white">
+                            <div class="card-body">
+                                <div class="card-title">Assignments</div>
+                                <h5>40</h5>
+                                <div class="card-text">Total Assignments Available</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card mb-3 bg-info text-white">
+                            <div class="card-body">
+                                <div class="card-title">Teachers</div>
+                                <h5>200</h5>
+                                <div class="card-text">Faculty Members</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card mb-3 bg-warning text-white">
+                            <div class="card-body">
+                                <div class="card-title">Exam Date</div>
+                                <h5>3/5/2024</h5>
+                                <div class="card-text">Next Scheduled Exam</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card mb-3 bg-secondary text-white">
+                            <div class="card-body">
+                                <div class="card-title">New Students Details</div>
+                                <div class="card-text">
+                                    <p>Name: Shrunkhal, Class: TE</p>
+                                    <p>Name: Khushi, Class: TE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activities Table -->
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Activity Name</th>
+                                <th>Class</th>
+                                <th>Total Students</th>
+                                <th>Winner</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Group Discussion</td>
+                                <td>TE</td>
+                                <td>40</td>
+                                <td>Shreya</td>
+                            </tr>
+                            <tr>
+                                <td>Aptitude</td>
+                                <td>TE</td>
+                                <td>50</td>
+                                <td>Sanika</td>
+                            </tr>
+                            <tr>
+                                <td>Poster-Presentation</td>
+                                <td>TE</td>
+                                <td>20</td>
+                                <td>Yash</td>
+                            </tr>
+                            <tr>
+                                <td>Coding Competition</td>
+                                <td>TE</td>
+                                <td>90</td>
+                                <td>Soham</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Add FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
